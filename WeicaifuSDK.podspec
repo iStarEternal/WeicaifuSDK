@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Star/WeicaifuSDK'
+  s.homepage         = 'https://github.com/iStarEternal/WeicaifuSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Star' => '576681253@qq.com' }
-  s.source           = { :git => 'https://github.com/Star/WeicaifuSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/iStarEternal/WeicaifuSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
