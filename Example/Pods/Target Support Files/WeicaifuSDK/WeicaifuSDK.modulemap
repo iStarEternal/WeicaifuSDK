@@ -1,0 +1,6 @@
+framework module WeicaifuSDK {
+  umbrella header "WeicaifuSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

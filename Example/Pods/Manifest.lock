@@ -1,0 +1,19 @@
+PODS:
+  - Kiwi (2.4.0)
+  - WeicaifuSDK (0.1.0)
+
+DEPENDENCIES:
+  - Kiwi
+  - WeicaifuSDK (from `../`)
+
+EXTERNAL SOURCES:
+  WeicaifuSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  WeicaifuSDK: 516de0bbca58b243bdd53f524fbbeaa2d5ef77c8
+
+PODFILE CHECKSUM: db8d4a2f50fde8a1ed0c3db3cdda088b9de65b72
+
+COCOAPODS: 1.4.0.beta.2
