@@ -195,8 +195,6 @@
 		F60E411CD4BDD959ADFFC1434EAC461B /* KWItNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B13E6EFC08EEB19B754D8522EDF5D9E /* KWItNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6EBF111EBCACF88F4AFCF42FD905813 /* KWSharedExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBD1D20D835214CE15313DCC8F5F98F /* KWSharedExample.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F74FBDC7491459DE3309B6C4DCC5D386 /* KWEqualMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 639A84288BCADD46102C1DFB507DBBA9 /* KWEqualMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F862436B1FBC49500079D530 /* WexSDKPrivateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F86243691FBC49500079D530 /* WexSDKPrivateHelper.h */; };
-		F862436C1FBC49500079D530 /* WexSDKPrivateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F862436A1FBC49500079D530 /* WexSDKPrivateHelper.m */; };
 		F90A8097D3CE59DE0D13C484BA833EE8 /* KWBeEmptyMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 106A79C1509D644004CE537555452A7D /* KWBeEmptyMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F959FDB1ACA6861154381B7D58411530 /* NSValue+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F71636B288C046517E2B91AC324AC64 /* NSValue+KiwiAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F9D3BD0265B776D5DC4A75938E546A70 /* KiwiMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 64735B17EBAF860890968AD76EC83C5B /* KiwiMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -463,8 +461,6 @@
 		F653F042EC69A9701BC03359B8788C9D /* KWFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWFormatter.m; path = Classes/Core/KWFormatter.m; sourceTree = "<group>"; };
 		F692CDCCD25872518D92CC88E3FD283E /* KWContextNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWContextNode.m; path = Classes/Nodes/KWContextNode.m; sourceTree = "<group>"; };
 		F78669E17F649D5A1050094F05C1A4E5 /* KWConformToProtocolMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWConformToProtocolMatcher.h; path = Classes/Matchers/KWConformToProtocolMatcher.h; sourceTree = "<group>"; };
-		F86243691FBC49500079D530 /* WexSDKPrivateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WexSDKPrivateHelper.h; sourceTree = "<group>"; };
-		F862436A1FBC49500079D530 /* WexSDKPrivateHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WexSDKPrivateHelper.m; sourceTree = "<group>"; };
 		F9FDEC3755DB6B55A5F0C577F5CDDA7A /* KWCountType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWCountType.h; path = Classes/Core/KWCountType.h; sourceTree = "<group>"; };
 		FAE1D16395C4DA10B69F59EEFD8A7756 /* KWFutureObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWFutureObject.h; path = Classes/Core/KWFutureObject.h; sourceTree = "<group>"; };
 		FC34717259C09CA770E1D6668622C092 /* KWObjCUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWObjCUtilities.h; path = Classes/Core/KWObjCUtilities.h; sourceTree = "<group>"; };
@@ -805,8 +801,6 @@
 			children = (
 				8A1A3E5D25C988B0E3978B240ED24A6C /* WexSDKHelper.h */,
 				0675302C52E5EF47B985FC3A998BE1CE /* WexSDKHelper.m */,
-				F86243691FBC49500079D530 /* WexSDKPrivateHelper.h */,
-				F862436A1FBC49500079D530 /* WexSDKPrivateHelper.m */,
 				00AED9368582582EBC6BA392FC671FCC /* Resources */,
 				82425BB9D0D87518932A7AEF7AFDEAA8 /* Support Files */,
 			);
@@ -962,7 +956,6 @@
 				CDF8DA51DBC9880DEE92C282BD1FC1F2 /* KWRegularExpressionPatternMatcher.h in Headers */,
 				F3A3E05FDF4E819622F38D7F503ECA88 /* KWReporting.h in Headers */,
 				EB7645869AC01EFCF97890D638882359 /* KWRespondToSelectorMatcher.h in Headers */,
-				F862436B1FBC49500079D530 /* WexSDKPrivateHelper.h in Headers */,
 				4242422F8C700157752250ACA7965188 /* KWSharedExample.h in Headers */,
 				7C2C56BA1AEC2476C914F30AAA538B26 /* KWSharedExampleRegistry.h in Headers */,
 				9216FDBC789EC079A81C9485221AA90C /* KWSpec.h in Headers */,
@@ -1168,7 +1161,6 @@
 				16F311C0978BA0196A305CA278A74EA4 /* KWBackgroundTask.m in Sources */,
 				DE51443F84DFFFB7633D85C257097937 /* KWBeBetweenMatcher.m in Sources */,
 				C892FBAA9C8A82D4E28C3A10D819DB75 /* KWBeEmptyMatcher.m in Sources */,
-				F862436C1FBC49500079D530 /* WexSDKPrivateHelper.m in Sources */,
 				76F14C992CFFF06401BB053612016947 /* KWBeforeAllNode.m in Sources */,
 				05FE0F2F0AA21B529737BA004D7053B6 /* KWBeforeEachNode.m in Sources */,
 				D4D25E3DC1D8B567BF9B1B9A5567BF29 /* KWBeIdenticalToMatcher.m in Sources */,
