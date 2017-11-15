@@ -9,4 +9,6 @@
 
 @interface WexSDKHelper : NSObject
 
+- (void)helloWorld;
+
 @end

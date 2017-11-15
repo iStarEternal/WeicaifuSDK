@@ -9,4 +9,9 @@
 
 @implementation WexSDKHelper
 
+
+- (void)helloWorld {
+    NSLog(@"HELLO WORLD!");
+}
+
 @end

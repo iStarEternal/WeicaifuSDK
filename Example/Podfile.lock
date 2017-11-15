@@ -1,6 +1,6 @@
 PODS:
   - Kiwi (2.4.0)
-  - WeicaifuSDK (0.1.0)
+  - WeicaifuSDK (0.1.1)
 
 DEPENDENCIES:
   - Kiwi
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
-  WeicaifuSDK: 516de0bbca58b243bdd53f524fbbeaa2d5ef77c8
+  WeicaifuSDK: 0e30799a84049e7c5d0c2afe958a51d821fdfeda
 
 PODFILE CHECKSUM: db8d4a2f50fde8a1ed0c3db3cdda088b9de65b72
 

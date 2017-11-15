@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "WexSDKHelper.h"
 
 FOUNDATION_EXPORT double WeicaifuSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char WeicaifuSDKVersionString[];

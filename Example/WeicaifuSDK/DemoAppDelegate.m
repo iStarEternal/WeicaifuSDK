@@ -8,10 +8,15 @@
 
 #import "DemoAppDelegate.h"
 
+// #import <WexSDKHelper.h>
+#import "WexSDKHelper.h"
+
 @implementation DemoAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [[[WexSDKHelper alloc] init] helloWorld];
     // Override point for customization after application launch.
     return YES;
 }
