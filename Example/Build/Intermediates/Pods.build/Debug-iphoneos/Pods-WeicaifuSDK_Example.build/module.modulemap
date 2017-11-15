@@ -1,0 +1,6 @@
+framework module Pods_WeicaifuSDK_Example {
+  umbrella header "Pods-WeicaifuSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

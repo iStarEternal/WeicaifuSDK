@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Star/Documents/Wex/SVN/WeicaifuSDK/WeicaifuSDK/Example/Build/Products/Debug-iphoneos/Pods_WeicaifuSDK_Example.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-WeicaifuSDK_Example-umbrella.h",
+          'external-contents': "/Users/Star/Documents/Wex/SVN/WeicaifuSDK/WeicaifuSDK/Example/Pods/Target Support Files/Pods-WeicaifuSDK_Example/Pods-WeicaifuSDK_Example-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_WeicaifuSDK_Example-Swift.h",
+          'external-contents': "/Users/Star/Documents/Wex/SVN/WeicaifuSDK/WeicaifuSDK/Example/Build/Products/Debug-iphoneos/Pods_WeicaifuSDK_Example.framework/Headers/Pods_WeicaifuSDK_Example-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Star/Documents/Wex/SVN/WeicaifuSDK/WeicaifuSDK/Example/Build/Products/Debug-iphoneos/Pods_WeicaifuSDK_Example.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Star/Documents/Wex/SVN/WeicaifuSDK/WeicaifuSDK/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-WeicaifuSDK_Example.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Star/Documents/Wex/SVN/WeicaifuSDK/WeicaifuSDK/Example/Build/Products/Debug-iphoneos/WeicaifuSDK/WeicaifuSDK.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "WeicaifuSDK-Swift.h",
+          'external-contents': "/Users/Star/Documents/Wex/SVN/WeicaifuSDK/WeicaifuSDK/Example/Build/Products/Debug-iphoneos/WeicaifuSDK/WeicaifuSDK.framework/Headers/WeicaifuSDK-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "WeicaifuSDK-umbrella.h",
+          'external-contents': "/Users/Star/Documents/Wex/SVN/WeicaifuSDK/WeicaifuSDK/Example/Pods/Target Support Files/WeicaifuSDK/WeicaifuSDK-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Star/Documents/Wex/SVN/WeicaifuSDK/WeicaifuSDK/Example/Build/Products/Debug-iphoneos/WeicaifuSDK/WeicaifuSDK.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Star/Documents/Wex/SVN/WeicaifuSDK/WeicaifuSDK/Example/Build/Intermediates/Pods.build/Debug-iphoneos/WeicaifuSDK.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
