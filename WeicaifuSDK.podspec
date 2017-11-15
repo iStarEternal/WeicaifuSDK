@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WeicaifuSDK'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = '微财富SDK'
 
 # This description is used to generate tags and improve search results.
@@ -33,10 +33,8 @@ Pod::Spec.new do |s|
   s.source_files = 'WeicaifuSDK/Classes/**/*'
   
   s.resource_bundles = {
-    'WeicaifuSDK' => [
-      'WeicaifuSDK/Assets/*.png',
-      'WeicaifuSDK/Assets/*.bundle'
-    ]
+    'WeicaifuSDK'       => ['WeicaifuSDK/Assets/*.png'],
+    'WeicaifuSDKBundle' => ['WeicaifuSDK/Assets/*.bundle']
   }
 
   s.public_header_files = 'WeicaifuSDK/Classes/*.h'
